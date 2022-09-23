@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Brian Nguyen's Resume Page</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img id="headshot" src="/img/image.png" alt="Brian Nguyen">
+            <h1 id="siteName">Brian Nguyen</h1>
+
+            <ul id="menu">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+            </ul>
+        </header>
+        <main style="background-color: slategray;">
+            <p><strong>Purpose:</strong> This is a resume (or CV) to help me get a job in web development.</p>
+
+            <h2>Experience</h2>
+            <div class="experience">
+                <p class="title">Accenture Song - 2022</p>
+                <p>Apprenticeship</p>
+
+            </div>
+
+            <div class="experience">
+                <p class="title">App Academy - 2020</p>
+                <p>Full Stack Web Development Bootcamp</p>
+
+            </div>
+
+            <div class="experience">
+                <p class="title">App Academy - 2020</p>
+                <p>Full Stack Web Development Bootcamp</p>
+
+            </div>
+        </main>
+
+        <aside>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div id="formInfo"></div>
+                <div><label" for="fullName">Full Name:</label> </div>
+                <div><input id="fullName" type="text"/></div>
+                <div><label" for="email">Email:</label></div>
+                <div><input id="email" type="email"/></div>
+                <div><label" for="subject">Subject:</label></div>
+                <div>
+                    <select id="subject">
+                        <option value="Job Offer">Job Offer</option>
+                        <option value="Personal Message">Personal Message</option>
+                        <option value="Complaint">Complaint</option>
+                    </select>
+                </div>
+                <div><label" for="message">Message:</label></div>
+                <div><textarea id="message" rows="4" type="textarea"></textarea></div>
+                <input type="submit" value="Send Mail"/>
+            </form>
+        </aside>
+
+        <footer>
+            &copy; Copyright 2022 - Brian Nguyen
+        </footer>
+    </div>
+    <script type="module" src="index.js"></script>
+    
+</body>
+
+
+</html>
